@@ -1,0 +1,24 @@
+SITE TRC MOTION - PRET A METTRE EN LIGNE
+
+CONTENU
+  index.html          le site complet
+  images/             photos (bien 1 + fond d'accueil) DEJA EN PLACE
+  videos/bien1.mp4    la video Courchevel 1850 DEJA EN PLACE
+
+MISE EN LIGNE (2 minutes)
+  1. Va sur vercel.com/new
+  2. Glisse-depose CE DOSSIER ENTIER (pas le zip, le dossier decompresse)
+  3. Choisis le projet existant "nael-trecasse-portfolio"
+  4. Deploy
+
+POUR AJOUTER LE DEUXIEME BIEN PLUS TARD
+  Depose dans images/ :
+    bien2-1.jpg ... bien2-4.jpg
+    bien2-cover.jpg
+  Depose dans videos/ :
+    bien2.mp4
+  Puis reglisse le dossier sur Vercel.
+
+FORMATS
+  Photos : JPG, 1200 px de large, moins de 300 Ko
+  Video  : MP4 H.264, 1080p, moins de 20 Mo
