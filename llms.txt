@@ -1,0 +1,19 @@
+# TRC Motion
+
+> Studio individuel basé en France qui transforme des photos existantes en vidéos publicitaires cinématiques, sans tournage ni déplacement. Trois domaines : immobilier (locations, hôtellerie de charme, agences), produits, contenus de marque.
+
+TRC Motion propose un service de motion design sur mesure : à partir des photos que le client possède déjà, une séquence vidéo cinématique est produite (script, animation, montage, son). Premier rendu sous 48h. Tarifs à partir de 50€. Commande et paiement gérés sur la plateforme ComeUp, qui sécurise la transaction jusqu'à validation du client.
+
+## Pages principales
+
+- [Accueil](https://trcmotion.vercel.app/) : présentation du service, réalisations (immobilier et produit), processus de commande, contact
+- [Mentions légales](https://trcmotion.vercel.app/mentions-legales.html)
+- [Politique de confidentialité](https://trcmotion.vercel.app/politique-confidentialite.html)
+
+## Commander
+
+Les prestations se commandent exclusivement sur ComeUp : https://comeup.com/fr/@trcmotion
+
+## Contact
+
+trcmotion.pro@gmail.com
