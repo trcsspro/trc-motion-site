@@ -25,11 +25,14 @@
 <meta name="twitter:title" content="TRC Motion · Transforme · Révèle · Capte">
 <meta name="twitter:description" content="Vidéos publicitaires cinématiques réalisées à partir de vos photos existantes. Immobilier, produit et marque.">
 <meta name="twitter:image" content="https://trcmotion.vercel.app/og-image.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fraunces:ital,opsz,wght@1,9..144,300..600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--nuit:#0E0C1A;--paper:#FAF9FB;--paper2:#F2F0F6;--glace:#F6F2FF;--ink:#0E0C1A;--soft:#5b5768;--faint:#8d8a99;--hair:rgba(14,12,26,.10);--hair-d:rgba(246,242,255,.14);--violet:#7C5CFC;--rose:#FF3D7F;--cyan:#22D3EE;--gap:clamp(20px,5vw,84px);--r:clamp(20px,3vw,36px)}
+@font-face{font-family:'Archivo Black';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/archivo-black-400.woff2') format('woff2')}
+@font-face{font-family:'Fraunces';font-style:italic;font-weight:400;font-display:swap;src:url('fonts/fraunces-400-italic.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/inter-400.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/inter-500.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/inter-600.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/inter-700.woff2') format('woff2')}
+:root{--nuit:#0E0C1A;--paper:#FAF9FB;--paper2:#F2F0F6;--glace:#F6F2FF;--ink:#0E0C1A;--soft:#5b5768;--faint:#747182;--hair:rgba(14,12,26,.10);--hair-d:rgba(246,242,255,.14);--violet:#7C5CFC;--rose:#FF3D7F;--cyan:#22D3EE;--gap:clamp(20px,5vw,84px);--r:clamp(20px,3vw,36px)}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
@@ -249,9 +252,33 @@ nav.on{opacity:1}
 .ct-links{display:flex;gap:26px;flex-wrap:wrap;margin-top:clamp(28px,4.4vh,46px)}
 .ct-links a{font-size:14px;color:rgba(246,242,255,.7);border-bottom:1px solid var(--hair-d);padding-bottom:4px;transition:color .3s}
 .ct-links a:hover{color:var(--glace)}
-.ft{display:flex;justify-content:space-between;gap:14px;margin-top:clamp(48px,8vh,90px);padding-top:20px;border-top:1px solid var(--hair-d);font-size:11px;color:rgba(246,242,255,.4);flex-wrap:wrap;align-items:center}
+.ft{display:flex;justify-content:space-between;gap:14px;margin-top:clamp(48px,8vh,90px);padding-top:20px;border-top:1px solid var(--hair-d);font-size:11px;color:rgba(246,242,255,.5);flex-wrap:wrap;align-items:center}
 .ft svg{width:24px}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "TRC Motion",
+  "url": "https://trcmotion.vercel.app/",
+  "image": "https://trcmotion.vercel.app/og-image.jpg",
+  "logo": "https://trcmotion.vercel.app/icon-512.png",
+  "email": "trcmotion.pro@gmail.com",
+  "description": "Vidéos publicitaires cinématiques réalisées à partir de photos existantes, pour l'immobilier, les produits et les marques.",
+  "areaServed": {
+    "@type": "Country",
+    "name": "France"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "FR"
+  },
+  "priceRange": "À partir de 50€",
+  "sameAs": [
+    "https://comeup.com/fr/@trcmotion"
+  ]
+}
+</script>
 </head>
 <body class="locked">
 <div class="grain"></div>
@@ -298,6 +325,7 @@ nav.on{opacity:1}
   <span class="seq-nav-sep"></span>
   <div class="seq-nav-items" id="seqNavItems"></div>
 </div>
+<main>
 <div class="stack">
 <section class="panel pl hero">
   <div class="bg">
@@ -518,7 +546,7 @@ nav.on{opacity:1}
     <div class="pr-cta rv"><a class="btn" href="https://comeup.com/fr/@trcmotion" target="_blank" rel="noopener" data-fr="D&eacute;marrer maintenant" data-en="Start now">D&eacute;marrer maintenant</a></div>
   </div>
 </section>
-<section class="panel pd">
+<section class="panel pd" role="contentinfo">
   <div class="gline"></div>
   <div class="bg"><i class="au a2"></i><i class="au a3"></i><div class="gd"></div><div class="beam"></div></div>
   <div class="ct-in">
@@ -544,6 +572,7 @@ nav.on{opacity:1}
   </div>
 </section>
 </div>
+</main>
 <script>
 var ld=document.getElementById('ld'),lts=document.getElementById('lts'),lmk=document.getElementById('lmk'),
     lwd=document.getElementById('lwd'),fla=document.getElementById('flash'),nv=document.getElementById('nav'),
